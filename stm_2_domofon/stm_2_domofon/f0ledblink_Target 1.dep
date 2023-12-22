@@ -1,0 +1,192 @@
+Dependencies for Project 'f0ledblink', Target 'Target 1': (DO NOT MODIFY !)
+F (.\source\main.c)(0x593C395F)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork -I.\source -I..\lib\Libraries\CMSIS\Device\ST\STM32F0xx\Include -I..\lib\Libraries\CMSIS\Device\ST\STM32F0xx -I..\lib\Libraries\STM32F0xx_StdPeriph_Driver\inc -I..\lib\Libraries\STM32F0xx_StdPeriph_Driver\src -I..\lib\Libraries\CMSIS\Include -I..\lib\nrf24l01 -I..\lib-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil\ARM\PACK\Keil\STM32F0xx_DFP\1.0.0\Device\Include-DSTM32F0XX_LD -DUSE_STDPERIPH_DRIVER-o .\build\main.o --omf_browse .\build\main.crf --depend .\build\main.d)
+I (..\lib\usart.h)(0x52FCA560)
+I (..\lib\Libraries\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x52D79E7C)
+I (..\lib\Libraries\CMSIS\Include\core_cm0.h)(0x52D79E46)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x53465664)
+I (..\lib\Libraries\CMSIS\Include\core_cmInstr.h)(0x52D79E46)
+I (..\lib\Libraries\CMSIS\Include\core_cmFunc.h)(0x52D79E46)
+I (..\lib\Libraries\CMSIS\Device\ST\STM32F0xx\Include\system_stm32f0xx.h)(0x52D79E7C)
+I (.\source\stm32f0xx_conf.h)(0x52ED42B8)
+I (..\lib\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_adc.h)(0x52D79E5E)
+I (..\lib\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_gpio.h)(0x52D79E5E)
+I (..\lib\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rcc.h)(0x52D79E5E)
+I (..\lib\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_spi.h)(0x52D79E5E)
+I (..\lib\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_tim.h)(0x52D79E5E)
+I (source\main.h)(0x585A016F)
+I (source\main1.h)(0x582D638B)
+I (source\timer.h)(0x545E23C5)
+I (..\lib\nrf24l01\nRF24L01.h)(0x5858367D)
+I (..\lib\param_flash.h)(0x5661E1C5)
+I (..\lib\delay.h)(0x57C5E430)
+I (source\1-wire_a.h)(0x555D67B7)
+I (source\1-wire_b.h)(0x555D67B7)
+F (.\source\startup_stm32f0xx.s)(0x57CAFE37)(--cpu Cortex-M0 -g --apcs=interwork --pd "__MICROLIB SETA 1"-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil\ARM\PACK\Keil\STM32F0xx_DFP\1.0.0\Device\Include--list .\build\startup_stm32f0xx.lst --xref -o .\build\startup_stm32f0xx.o --depend .\build\startup_stm32f0xx.d)
+F (.\source\system.c)(0x57CB08A6)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork -I.\source -I..\lib\Libraries\CMSIS\Device\ST\STM32F0xx\Include -I..\lib\Libraries\CMSIS\Device\ST\STM32F0xx -I..\lib\Libraries\STM32F0xx_StdPeriph_Driver\inc -I..\lib\Libraries\STM32F0xx_StdPeriph_Driver\src -I..\lib\Libraries\CMSIS\Include -I..\lib\nrf24l01 -I..\lib-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil\ARM\PACK\Keil\STM32F0xx_DFP\1.0.0\Device\Include-DSTM32F0XX_LD -DUSE_STDPERIPH_DRIVER-o .\build\system.o --omf_browse .\build\system.crf --depend .\build\system.d)
+I (..\lib\Libraries\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x52D79E7C)
+I (..\lib\Libraries\CMSIS\Include\core_cm0.h)(0x52D79E46)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x53465664)
+I (..\lib\Libraries\CMSIS\Include\core_cmInstr.h)(0x52D79E46)
+I (..\lib\Libraries\CMSIS\Include\core_cmFunc.h)(0x52D79E46)
+I (..\lib\Libraries\CMSIS\Device\ST\STM32F0xx\Include\system_stm32f0xx.h)(0x52D79E7C)
+I (.\source\stm32f0xx_conf.h)(0x52ED42B8)
+I (..\lib\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_adc.h)(0x52D79E5E)
+I (..\lib\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_gpio.h)(0x52D79E5E)
+I (..\lib\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rcc.h)(0x52D79E5E)
+I (..\lib\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_spi.h)(0x52D79E5E)
+I (..\lib\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_tim.h)(0x52D79E5E)
+F (.\source\1-wire_a.c)(0x57CB263B)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork -I.\source -I..\lib\Libraries\CMSIS\Device\ST\STM32F0xx\Include -I..\lib\Libraries\CMSIS\Device\ST\STM32F0xx -I..\lib\Libraries\STM32F0xx_StdPeriph_Driver\inc -I..\lib\Libraries\STM32F0xx_StdPeriph_Driver\src -I..\lib\Libraries\CMSIS\Include -I..\lib\nrf24l01 -I..\lib-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil\ARM\PACK\Keil\STM32F0xx_DFP\1.0.0\Device\Include-DSTM32F0XX_LD -DUSE_STDPERIPH_DRIVER-o .\build\1-wire_a.o --omf_browse .\build\1-wire_a.crf --depend .\build\1-wire_a.d)
+I (source\1-wire_a.h)(0x555D67B7)
+I (..\lib\Libraries\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x52D79E7C)
+I (..\lib\Libraries\CMSIS\Include\core_cm0.h)(0x52D79E46)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x53465664)
+I (..\lib\Libraries\CMSIS\Include\core_cmInstr.h)(0x52D79E46)
+I (..\lib\Libraries\CMSIS\Include\core_cmFunc.h)(0x52D79E46)
+I (..\lib\Libraries\CMSIS\Device\ST\STM32F0xx\Include\system_stm32f0xx.h)(0x52D79E7C)
+I (.\source\stm32f0xx_conf.h)(0x52ED42B8)
+I (..\lib\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_adc.h)(0x52D79E5E)
+I (..\lib\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_gpio.h)(0x52D79E5E)
+I (..\lib\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rcc.h)(0x52D79E5E)
+I (..\lib\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_spi.h)(0x52D79E5E)
+I (..\lib\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_tim.h)(0x52D79E5E)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x53465664)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x53465664)
+I (.\source\main.h)(0x585A016F)
+I (..\lib\delay.h)(0x57C5E430)
+F (.\source\1-wire_b.c)(0x57CB25ED)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork -I.\source -I..\lib\Libraries\CMSIS\Device\ST\STM32F0xx\Include -I..\lib\Libraries\CMSIS\Device\ST\STM32F0xx -I..\lib\Libraries\STM32F0xx_StdPeriph_Driver\inc -I..\lib\Libraries\STM32F0xx_StdPeriph_Driver\src -I..\lib\Libraries\CMSIS\Include -I..\lib\nrf24l01 -I..\lib-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil\ARM\PACK\Keil\STM32F0xx_DFP\1.0.0\Device\Include-DSTM32F0XX_LD -DUSE_STDPERIPH_DRIVER-o .\build\1-wire_b.o --omf_browse .\build\1-wire_b.crf --depend .\build\1-wire_b.d)
+I (source\1-wire_b.h)(0x555D67B7)
+I (..\lib\Libraries\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x52D79E7C)
+I (..\lib\Libraries\CMSIS\Include\core_cm0.h)(0x52D79E46)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x53465664)
+I (..\lib\Libraries\CMSIS\Include\core_cmInstr.h)(0x52D79E46)
+I (..\lib\Libraries\CMSIS\Include\core_cmFunc.h)(0x52D79E46)
+I (..\lib\Libraries\CMSIS\Device\ST\STM32F0xx\Include\system_stm32f0xx.h)(0x52D79E7C)
+I (.\source\stm32f0xx_conf.h)(0x52ED42B8)
+I (..\lib\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_adc.h)(0x52D79E5E)
+I (..\lib\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_gpio.h)(0x52D79E5E)
+I (..\lib\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rcc.h)(0x52D79E5E)
+I (..\lib\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_spi.h)(0x52D79E5E)
+I (..\lib\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_tim.h)(0x52D79E5E)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x53465664)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x53465664)
+I (.\source\main.h)(0x585A016F)
+I (..\lib\delay.h)(0x57C5E430)
+F (.\source\timer.c)(0x57E52677)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork -I.\source -I..\lib\Libraries\CMSIS\Device\ST\STM32F0xx\Include -I..\lib\Libraries\CMSIS\Device\ST\STM32F0xx -I..\lib\Libraries\STM32F0xx_StdPeriph_Driver\inc -I..\lib\Libraries\STM32F0xx_StdPeriph_Driver\src -I..\lib\Libraries\CMSIS\Include -I..\lib\nrf24l01 -I..\lib-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil\ARM\PACK\Keil\STM32F0xx_DFP\1.0.0\Device\Include-DSTM32F0XX_LD -DUSE_STDPERIPH_DRIVER-o .\build\timer.o --omf_browse .\build\timer.crf --depend .\build\timer.d)
+I (source\timer.h)(0x545E23C5)
+I (..\lib\Libraries\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x52D79E7C)
+I (..\lib\Libraries\CMSIS\Include\core_cm0.h)(0x52D79E46)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x53465664)
+I (..\lib\Libraries\CMSIS\Include\core_cmInstr.h)(0x52D79E46)
+I (..\lib\Libraries\CMSIS\Include\core_cmFunc.h)(0x52D79E46)
+I (..\lib\Libraries\CMSIS\Device\ST\STM32F0xx\Include\system_stm32f0xx.h)(0x52D79E7C)
+I (.\source\stm32f0xx_conf.h)(0x52ED42B8)
+I (..\lib\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_adc.h)(0x52D79E5E)
+I (..\lib\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_gpio.h)(0x52D79E5E)
+I (..\lib\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rcc.h)(0x52D79E5E)
+I (..\lib\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_spi.h)(0x52D79E5E)
+I (..\lib\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_tim.h)(0x52D79E5E)
+I (..\lib\usart.h)(0x52FCA560)
+I (source\main.h)(0x585A016F)
+F (..\lib\usart.c)(0x585BC9C9)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork -I.\source -I..\lib\Libraries\CMSIS\Device\ST\STM32F0xx\Include -I..\lib\Libraries\CMSIS\Device\ST\STM32F0xx -I..\lib\Libraries\STM32F0xx_StdPeriph_Driver\inc -I..\lib\Libraries\STM32F0xx_StdPeriph_Driver\src -I..\lib\Libraries\CMSIS\Include -I..\lib\nrf24l01 -I..\lib-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil\ARM\PACK\Keil\STM32F0xx_DFP\1.0.0\Device\Include-DSTM32F0XX_LD -DUSE_STDPERIPH_DRIVER-o .\build\usart.o --omf_browse .\build\usart.crf --depend .\build\usart.d)
+I (..\lib\usart.h)(0x52FCA560)
+I (..\lib\Libraries\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x52D79E7C)
+I (..\lib\Libraries\CMSIS\Include\core_cm0.h)(0x52D79E46)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x53465664)
+I (..\lib\Libraries\CMSIS\Include\core_cmInstr.h)(0x52D79E46)
+I (..\lib\Libraries\CMSIS\Include\core_cmFunc.h)(0x52D79E46)
+I (..\lib\Libraries\CMSIS\Device\ST\STM32F0xx\Include\system_stm32f0xx.h)(0x52D79E7C)
+I (.\source\stm32f0xx_conf.h)(0x52ED42B8)
+I (..\lib\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_adc.h)(0x52D79E5E)
+I (..\lib\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_gpio.h)(0x52D79E5E)
+I (..\lib\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rcc.h)(0x52D79E5E)
+I (..\lib\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_spi.h)(0x52D79E5E)
+I (..\lib\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_tim.h)(0x52D79E5E)
+I (.\source\main.h)(0x585A016F)
+I (.\source\main1.h)(0x582D638B)
+I (..\lib\param_flash.h)(0x5661E1C5)
+F (..\lib\param_flash.c)(0x58567541)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork -I.\source -I..\lib\Libraries\CMSIS\Device\ST\STM32F0xx\Include -I..\lib\Libraries\CMSIS\Device\ST\STM32F0xx -I..\lib\Libraries\STM32F0xx_StdPeriph_Driver\inc -I..\lib\Libraries\STM32F0xx_StdPeriph_Driver\src -I..\lib\Libraries\CMSIS\Include -I..\lib\nrf24l01 -I..\lib-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil\ARM\PACK\Keil\STM32F0xx_DFP\1.0.0\Device\Include-DSTM32F0XX_LD -DUSE_STDPERIPH_DRIVER-o .\build\param_flash.o --omf_browse .\build\param_flash.crf --depend .\build\param_flash.d)
+I (..\lib\param_flash.h)(0x5661E1C5)
+I (..\lib\Libraries\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x52D79E7C)
+I (..\lib\Libraries\CMSIS\Include\core_cm0.h)(0x52D79E46)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x53465664)
+I (..\lib\Libraries\CMSIS\Include\core_cmInstr.h)(0x52D79E46)
+I (..\lib\Libraries\CMSIS\Include\core_cmFunc.h)(0x52D79E46)
+I (..\lib\Libraries\CMSIS\Device\ST\STM32F0xx\Include\system_stm32f0xx.h)(0x52D79E7C)
+I (.\source\stm32f0xx_conf.h)(0x52ED42B8)
+I (..\lib\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_adc.h)(0x52D79E5E)
+I (..\lib\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_gpio.h)(0x52D79E5E)
+I (..\lib\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rcc.h)(0x52D79E5E)
+I (..\lib\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_spi.h)(0x52D79E5E)
+I (..\lib\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_tim.h)(0x52D79E5E)
+F (..\lib\ext_int.c)(0x593984AE)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork -I.\source -I..\lib\Libraries\CMSIS\Device\ST\STM32F0xx\Include -I..\lib\Libraries\CMSIS\Device\ST\STM32F0xx -I..\lib\Libraries\STM32F0xx_StdPeriph_Driver\inc -I..\lib\Libraries\STM32F0xx_StdPeriph_Driver\src -I..\lib\Libraries\CMSIS\Include -I..\lib\nrf24l01 -I..\lib-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil\ARM\PACK\Keil\STM32F0xx_DFP\1.0.0\Device\Include-DSTM32F0XX_LD -DUSE_STDPERIPH_DRIVER-o .\build\ext_int.o --omf_browse .\build\ext_int.crf --depend .\build\ext_int.d)
+I (..\lib\nrf24l01\nRF24L01.h)(0x5858367D)
+I (.\source\main.h)(0x585A016F)
+I (..\lib\Libraries\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x52D79E7C)
+I (..\lib\Libraries\CMSIS\Include\core_cm0.h)(0x52D79E46)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x53465664)
+I (..\lib\Libraries\CMSIS\Include\core_cmInstr.h)(0x52D79E46)
+I (..\lib\Libraries\CMSIS\Include\core_cmFunc.h)(0x52D79E46)
+I (..\lib\Libraries\CMSIS\Device\ST\STM32F0xx\Include\system_stm32f0xx.h)(0x52D79E7C)
+I (.\source\stm32f0xx_conf.h)(0x52ED42B8)
+I (..\lib\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_adc.h)(0x52D79E5E)
+I (..\lib\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_gpio.h)(0x52D79E5E)
+I (..\lib\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rcc.h)(0x52D79E5E)
+I (..\lib\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_spi.h)(0x52D79E5E)
+I (..\lib\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_tim.h)(0x52D79E5E)
+I (..\lib\usart.h)(0x52FCA560)
+I (..\lib\param_flash.h)(0x5661E1C5)
+I (.\source\main1.h)(0x582D638B)
+I (.\source\commands.h)(0x57C5C69E)
+I (..\lib\delay.h)(0x57C5E430)
+I (..\lib\ext_int.h)(0x5857C3D6)
+I (..\lib\pass.h)(0x5857759E)
+F (.\source\commands.c)(0x585C12AF)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork -I.\source -I..\lib\Libraries\CMSIS\Device\ST\STM32F0xx\Include -I..\lib\Libraries\CMSIS\Device\ST\STM32F0xx -I..\lib\Libraries\STM32F0xx_StdPeriph_Driver\inc -I..\lib\Libraries\STM32F0xx_StdPeriph_Driver\src -I..\lib\Libraries\CMSIS\Include -I..\lib\nrf24l01 -I..\lib-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil\ARM\PACK\Keil\STM32F0xx_DFP\1.0.0\Device\Include-DSTM32F0XX_LD -DUSE_STDPERIPH_DRIVER-o .\build\commands.o --omf_browse .\build\commands.crf --depend .\build\commands.d)
+I (source\commands.h)(0x57C5C69E)
+I (source\main.h)(0x585A016F)
+I (..\lib\Libraries\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x52D79E7C)
+I (..\lib\Libraries\CMSIS\Include\core_cm0.h)(0x52D79E46)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x53465664)
+I (..\lib\Libraries\CMSIS\Include\core_cmInstr.h)(0x52D79E46)
+I (..\lib\Libraries\CMSIS\Include\core_cmFunc.h)(0x52D79E46)
+I (..\lib\Libraries\CMSIS\Device\ST\STM32F0xx\Include\system_stm32f0xx.h)(0x52D79E7C)
+I (.\source\stm32f0xx_conf.h)(0x52ED42B8)
+I (..\lib\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_adc.h)(0x52D79E5E)
+I (..\lib\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_gpio.h)(0x52D79E5E)
+I (..\lib\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rcc.h)(0x52D79E5E)
+I (..\lib\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_spi.h)(0x52D79E5E)
+I (..\lib\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_tim.h)(0x52D79E5E)
+I (..\lib\usart.h)(0x52FCA560)
+I (..\lib\param_flash.h)(0x5661E1C5)
+I (source\main1.h)(0x582D638B)
+F (..\lib\nrf24l01\nrf24l01.c)(0x5858EB2E)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork -I.\source -I..\lib\Libraries\CMSIS\Device\ST\STM32F0xx\Include -I..\lib\Libraries\CMSIS\Device\ST\STM32F0xx -I..\lib\Libraries\STM32F0xx_StdPeriph_Driver\inc -I..\lib\Libraries\STM32F0xx_StdPeriph_Driver\src -I..\lib\Libraries\CMSIS\Include -I..\lib\nrf24l01 -I..\lib-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil\ARM\PACK\Keil\STM32F0xx_DFP\1.0.0\Device\Include-DSTM32F0XX_LD -DUSE_STDPERIPH_DRIVER-o .\build\nrf24l01.o --omf_browse .\build\nrf24l01.crf --depend .\build\nrf24l01.d)
+I (..\lib\nrf24l01\nRF24L01.h)(0x5858367D)
+I (..\lib\Libraries\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x52D79E7C)
+I (..\lib\Libraries\CMSIS\Include\core_cm0.h)(0x52D79E46)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x53465664)
+I (..\lib\Libraries\CMSIS\Include\core_cmInstr.h)(0x52D79E46)
+I (..\lib\Libraries\CMSIS\Include\core_cmFunc.h)(0x52D79E46)
+I (..\lib\Libraries\CMSIS\Device\ST\STM32F0xx\Include\system_stm32f0xx.h)(0x52D79E7C)
+I (.\source\stm32f0xx_conf.h)(0x52ED42B8)
+I (..\lib\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_adc.h)(0x52D79E5E)
+I (..\lib\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_gpio.h)(0x52D79E5E)
+I (..\lib\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rcc.h)(0x52D79E5E)
+I (..\lib\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_spi.h)(0x52D79E5E)
+I (..\lib\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_tim.h)(0x52D79E5E)
+I (.\source\main.h)(0x585A016F)
+I (..\lib\delay.h)(0x57C5E430)
+I (..\lib\usart.h)(0x52FCA560)
+F (..\lib\delay.c)(0x584C03C4)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork -I.\source -I..\lib\Libraries\CMSIS\Device\ST\STM32F0xx\Include -I..\lib\Libraries\CMSIS\Device\ST\STM32F0xx -I..\lib\Libraries\STM32F0xx_StdPeriph_Driver\inc -I..\lib\Libraries\STM32F0xx_StdPeriph_Driver\src -I..\lib\Libraries\CMSIS\Include -I..\lib\nrf24l01 -I..\lib-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil\ARM\PACK\Keil\STM32F0xx_DFP\1.0.0\Device\Include-DSTM32F0XX_LD -DUSE_STDPERIPH_DRIVER-o .\build\delay.o --omf_browse .\build\delay.crf --depend .\build\delay.d)
+I (..\lib\delay.h)(0x57C5E430)
+I (..\lib\Libraries\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x52D79E7C)
+I (..\lib\Libraries\CMSIS\Include\core_cm0.h)(0x52D79E46)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x53465664)
+I (..\lib\Libraries\CMSIS\Include\core_cmInstr.h)(0x52D79E46)
+I (..\lib\Libraries\CMSIS\Include\core_cmFunc.h)(0x52D79E46)
+I (..\lib\Libraries\CMSIS\Device\ST\STM32F0xx\Include\system_stm32f0xx.h)(0x52D79E7C)
+I (.\source\stm32f0xx_conf.h)(0x52ED42B8)
+I (..\lib\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_adc.h)(0x52D79E5E)
+I (..\lib\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_gpio.h)(0x52D79E5E)
+I (..\lib\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rcc.h)(0x52D79E5E)
+I (..\lib\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_spi.h)(0x52D79E5E)
+I (..\lib\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_tim.h)(0x52D79E5E)
+F (.\source\delay_asm.s)(0x57CB1461)(--cpu Cortex-M0 -g --apcs=interwork --pd "__MICROLIB SETA 1"-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil\ARM\PACK\Keil\STM32F0xx_DFP\1.0.0\Device\Include--list .\build\delay_asm.lst --xref -o .\build\delay_asm.o --depend .\build\delay_asm.d)

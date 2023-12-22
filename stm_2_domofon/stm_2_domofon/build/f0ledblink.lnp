@@ -1,0 +1,15 @@
+--cpu Cortex-M0
+".\build\main.o"
+".\build\startup_stm32f0xx.o"
+".\build\system.o"
+".\build\timer.o"
+".\build\usart.o"
+".\build\param_flash.o"
+".\build\ext_int.o"
+".\build\commands.o"
+".\build\delay.o"
+".\build\delay_asm.o"
+--library_type=microlib --strict --scatter ".\build\f0ledblink.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\build\f0ledblink.map" -o .\build\f0ledblink.axf
